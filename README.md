@@ -1,11 +1,14 @@
 # Chemistry
-### What's inside this repository? 
-This repository contains all source code related to chemistry. you will find:
-* Formula_formatter:
-    ** Use RegEx to detect and map all the atoms contained in a chemical formula inside a dictionnary, giving the number of each atoms.
-    ** Used to compare formula from different sources where the format may be different.
-* quizz_pka
-    ** A simple Python quizz to help learning the pla values of various chemicals.
-* rotamere
-    ** A python script using **RDKit** to calculate the **lowest energy conformer** from a SMILE formula and giving the 3D visualization of the molecule.
-  
+
+### What's Inside This Repository?
+This repository contains all source code related to chemistry. You will find:
+
+* **Formula Formatter**:
+    - Uses RegEx to detect and map all the atoms contained in a chemical formula into a dictionary, providing the number of each atom.
+    - Useful for comparing formulas from different sources where the format may vary.
+
+* **Quiz pKa**:
+    - A simple Python quiz to help learn the pKa values of various chemicals.
+
+* **Rotamer**:
+    - A Python script using **RDKit** to calculate the **lowest energy conformer** from a SMILES formula and provide a 3D visualization of the molecule.
